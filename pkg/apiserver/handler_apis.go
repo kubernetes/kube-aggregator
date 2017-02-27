@@ -48,7 +48,7 @@ func WithAPIs(handler http.Handler, informer informers.APIServiceInformer, servi
 }
 
 // apisHandler serves the `/apis` endpoint.
-// This is registered as a filter so that it never collides with any explictly registered endpoints
+// This is registered as a filter so that it never collides with any explicitly registered endpoints
 type apisHandler struct {
 	lister listers.APIServiceLister
 
