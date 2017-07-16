@@ -14,6 +14,5 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-// Package rest has generic implementations of resources used for
-// REST responses
-package rest
+// Package proxy provides transport and upgrade support for proxies.
+package proxy
