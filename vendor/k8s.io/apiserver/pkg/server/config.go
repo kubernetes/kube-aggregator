@@ -405,6 +405,7 @@ func (c completedConfig) New(name string, delegationTarget DelegationTarget) (*G
 		requestContextMapper:   c.RequestContextMapper,
 		Serializer:             c.Serializer,
 		AuditBackend:           c.AuditBackend,
+		delegationTarget:       delegationTarget,
 
 		minRequestTimeout: time.Duration(c.MinRequestTimeout) * time.Second,
 
@@ -482,7 +483,11 @@ func DefaultBuildHandlerChain(apiHandler http.Handler, c *Config) http.Handler {
 	} else {
 		handler = genericapifilters.WithLegacyAudit(handler, c.RequestContextMapper, c.LegacyAuditWriter)
 	}
-	handler = genericapifilters.WithAuthentication(handler, c.RequestContextMapper, c.Authenticator, genericapifilters.Unauthorized(c.RequestContextMapper, c.Serializer, c.SupportsBasicAuth))
+	failedHandler := genericapifilters.Unauthorized(c.RequestContextMapper, c.Serializer, c.SupportsBasicAuth)
+	if utilfeature.DefaultFeatureGate.Enabled(features.AdvancedAuditing) {
+		failedHandler = genericapifilters.WithFailedAuthenticationAudit(failedHandler, c.RequestContextMapper, c.AuditBackend, c.AuditPolicyChecker)
+	}
+	handler = genericapifilters.WithAuthentication(handler, c.RequestContextMapper, c.Authenticator, failedHandler)
 	handler = genericfilters.WithCORS(handler, c.CorsAllowedOriginList, nil, nil, nil, "true")
 	handler = genericfilters.WithTimeoutForNonLongRunningRequests(handler, c.RequestContextMapper, c.LongRunningFunc, c.RequestTimeout)
 	handler = genericapifilters.WithRequestInfo(handler, NewRequestInfoResolver(c), c.RequestContextMapper)
