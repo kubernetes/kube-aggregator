@@ -371,10 +371,6 @@
       "Rev": "7ddbeae9ae08c6a06a59597f0c9edbc5ff2444ce"
     },
     {
-      "ImportPath": "golang.org/x/sys/windows",
-      "Rev": "7ddbeae9ae08c6a06a59597f0c9edbc5ff2444ce"
-    },
-    {
       "ImportPath": "golang.org/x/text/cases",
       "Rev": "b19bf474d317b857955b12035d2c5acb57ce8b01"
     },
