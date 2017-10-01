@@ -1,7 +1,7 @@
 # kube-aggregator
 ## Coming Soon!
 
-Implements https://github.com/kubernetes/community/blob/master/contributors/design-proposals/aggregated-api-servers.md.
+Implements https://github.com/kubernetes/community/blob/master/contributors/design-proposals/api-machinery/aggregated-api-servers.md.
 
 It provides
 * Provide an API for registering API servers.
@@ -19,7 +19,7 @@ aggregated servers.
 
 ## Compatibility
 
-HEAD of this repo will match HEAD of k8s.io/apiserver, k8s.io/apimachinvery, and k8s.io/client-go.
+HEAD of this repo will match HEAD of k8s.io/apiserver, k8s.io/apimachinery, and k8s.io/client-go.
 
 ## Where does it come from?
 
