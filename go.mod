@@ -17,7 +17,7 @@ require (
 	golang.org/x/net v0.0.0-20190206173232-65e2d4e15006
 	k8s.io/api v0.0.0-20190409092523-d687e77c8ae9
 	k8s.io/apimachinery v0.0.0-20190409092423-760d1845f48b
-	k8s.io/apiserver v0.0.0-20190409093229-67d6e044d2ef
+	k8s.io/apiserver v0.0.0-20190410012938-960ba986eb69
 	k8s.io/client-go v0.0.0-20190409092706-ca8df85b1798
 	k8s.io/code-generator v0.0.0-20190409092313-826a68e0d120
 	k8s.io/component-base v0.0.0-20190409093041-e34633071963
@@ -148,7 +148,7 @@ replace (
 	gotest.tools => gotest.tools v2.2.0+incompatible
 	k8s.io/api => k8s.io/api v0.0.0-20190409092523-d687e77c8ae9
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20190409092423-760d1845f48b
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20190409093229-67d6e044d2ef
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20190410012938-960ba986eb69
 	k8s.io/client-go => k8s.io/client-go v0.0.0-20190409092706-ca8df85b1798
 	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20190409092313-826a68e0d120
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20190409093041-e34633071963
