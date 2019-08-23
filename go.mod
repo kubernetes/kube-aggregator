@@ -10,16 +10,17 @@ require (
 	github.com/ghodss/yaml v0.0.0-20180820084758-c7ce16629ff4 // indirect
 	github.com/go-openapi/spec v0.19.2
 	github.com/gogo/protobuf v1.2.2-0.20190723190241-65acae22fc9d
+	github.com/prometheus/client_golang v0.9.2
 	github.com/spf13/cobra v0.0.5
 	github.com/spf13/pflag v1.0.3
 	github.com/stretchr/testify v1.3.0
 	golang.org/x/net v0.0.0-20190812203447-cdfb69ac37fc
-	k8s.io/api v0.0.0-20190826194732-9f642ccb7a30
-	k8s.io/apimachinery v0.0.0-20190828074610-103e7d66058c
-	k8s.io/apiserver v0.0.0-20190828115638-d4d82326adec
-	k8s.io/client-go v0.0.0-20190827114928-15739c3f8076
-	k8s.io/code-generator v0.0.0-20190827074448-09647a2e6ca0
-	k8s.io/component-base v0.0.0-20190823013255-e3d4ac5c99fb
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/code-generator v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog v0.4.0
 	k8s.io/kube-openapi v0.0.0-20190709113604-33be087ad058
 	k8s.io/utils v0.0.0-20190801114015-581e00157fb1
@@ -28,13 +29,16 @@ require (
 replace (
 	golang.org/x/crypto => golang.org/x/crypto v0.0.0-20181025213731-e84da0312774
 	golang.org/x/lint => golang.org/x/lint v0.0.0-20181217174547-8f45f776aaf1
+	golang.org/x/oauth2 => golang.org/x/oauth2 v0.0.0-20190402181905-9f3314589c9a
 	golang.org/x/sync => golang.org/x/sync v0.0.0-20181108010431-42b317875d0f
 	golang.org/x/sys => golang.org/x/sys v0.0.0-20190209173611-3b5209105503
 	golang.org/x/text => golang.org/x/text v0.3.1-0.20181227161524-e6919f6577db
-	k8s.io/api => k8s.io/api v0.0.0-20190826194732-9f642ccb7a30
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20190828074610-103e7d66058c
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20190828115638-d4d82326adec
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20190827114928-15739c3f8076
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20190827074448-09647a2e6ca0
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20190823013255-e3d4ac5c99fb
+	golang.org/x/time => golang.org/x/time v0.0.0-20161028155119-f51c12702a4d
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/code-generator => ../code-generator
+	k8s.io/component-base => ../component-base
+	k8s.io/kube-aggregator => ../kube-aggregator
 )
