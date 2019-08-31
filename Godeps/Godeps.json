@@ -88,7 +88,7 @@
 		},
 		{
 			"ImportPath": "github.com/coreos/go-oidc",
-			"Rev": "065b426bd416"
+			"Rev": "v2.1.0"
 		},
 		{
 			"ImportPath": "github.com/coreos/go-semver",
@@ -140,7 +140,7 @@
 		},
 		{
 			"ImportPath": "github.com/ghodss/yaml",
-			"Rev": "c7ce16629ff4"
+			"Rev": "73d445a93680"
 		},
 		{
 			"ImportPath": "github.com/go-logr/logr",
@@ -568,27 +568,27 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "535404967fc8"
+			"Rev": "518b3a755175"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "35bd9ae31030"
+			"Rev": "93cd198ca677"
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "b7aa76048d95"
+			"Rev": "1cc0c7b19bc8"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "960df9c23167"
+			"Rev": "dd35e17ce261"
 		},
 		{
 			"ImportPath": "k8s.io/code-generator",
-			"Rev": "668f4934badc"
+			"Rev": "969864c73cc1"
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "b635e5567b37"
+			"Rev": "10a404db9bd0"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",
@@ -600,7 +600,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/kube-openapi",
-			"Rev": "33be087ad058"
+			"Rev": "743ec37842bf"
 		},
 		{
 			"ImportPath": "k8s.io/utils",
