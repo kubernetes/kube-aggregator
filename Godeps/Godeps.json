@@ -580,11 +580,11 @@
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "03c6cbfaa832"
+			"Rev": "ebfe712c1fff"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "f0b66610246d"
+			"Rev": "85029d69edea"
 		},
 		{
 			"ImportPath": "k8s.io/code-generator",
@@ -632,7 +632,7 @@
 		},
 		{
 			"ImportPath": "sigs.k8s.io/structured-merge-diff",
-			"Rev": "6149e4549fca"
+			"Rev": "v1.0.1"
 		},
 		{
 			"ImportPath": "sigs.k8s.io/yaml",
