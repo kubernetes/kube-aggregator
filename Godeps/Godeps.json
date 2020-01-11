@@ -428,7 +428,7 @@
 		},
 		{
 			"ImportPath": "github.com/prometheus/client_model",
-			"Rev": "fd36f4220a90"
+			"Rev": "v0.1.0"
 		},
 		{
 			"ImportPath": "github.com/prometheus/common",
@@ -664,11 +664,11 @@
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "8f98b2385567"
+			"Rev": "904d3d8a3999"
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "0f16f28eb27d"
+			"Rev": "4f714193382d"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
@@ -680,7 +680,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "e498b4d116ab"
+			"Rev": "313033959c60"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",
