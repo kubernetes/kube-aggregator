@@ -14,12 +14,12 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.4.0
 	golang.org/x/net v0.0.0-20191004110552-13f9640d40b9
-	k8s.io/api v0.0.0-20200205090848-02edbc1d22f3
-	k8s.io/apimachinery v0.0.0-20200205225706-5e9e8834bd13
-	k8s.io/apiserver v0.0.0-20200131033534-9dae63f1bed9
-	k8s.io/client-go v0.0.0-20200205110617-8a503c805acf
-	k8s.io/code-generator v0.0.0-20200130061103-7dfd5e9157ef
-	k8s.io/component-base v0.0.0-20200131033216-6bcd25baa4f4
+	k8s.io/api v0.0.0-20200207025841-85a41f27a10c
+	k8s.io/apimachinery v0.0.0-20200207025655-52a338251bb2
+	k8s.io/apiserver v0.0.0-20200207030824-ddd8da9c0f3a
+	k8s.io/client-go v0.0.0-20200207030105-473926661c44
+	k8s.io/code-generator v0.0.0-20200207025509-0fa7fdad09bb
+	k8s.io/component-base v0.0.0-20200207030544-616550b070ba
 	k8s.io/klog v1.0.0
 	k8s.io/kube-openapi v0.0.0-20200121204235-bf4fb3bd569c
 	k8s.io/utils v0.0.0-20191217005138-9e5e9d854fcc
@@ -28,10 +28,10 @@ require (
 replace (
 	golang.org/x/sys => golang.org/x/sys v0.0.0-20190813064441-fde4db37ae7a // pinned to release-branch.go1.13
 	golang.org/x/tools => golang.org/x/tools v0.0.0-20190821162956-65e3620a7ae7 // pinned to release-branch.go1.13
-	k8s.io/api => k8s.io/api v0.0.0-20200205090848-02edbc1d22f3
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20200205225706-5e9e8834bd13
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20200131033534-9dae63f1bed9
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20200205110617-8a503c805acf
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20200130061103-7dfd5e9157ef
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20200131033216-6bcd25baa4f4
+	k8s.io/api => k8s.io/api v0.0.0-20200207025841-85a41f27a10c
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20200207025655-52a338251bb2
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20200207030824-ddd8da9c0f3a
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20200207030105-473926661c44
+	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20200207025509-0fa7fdad09bb
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20200207030544-616550b070ba
 )
