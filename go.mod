@@ -16,13 +16,13 @@ require (
 	golang.org/x/net v0.0.0-20191004110552-13f9640d40b9
 	k8s.io/api v0.0.0-20200320042356-1fc28ea2498c
 	k8s.io/apimachinery v0.0.0-20200324202305-1aec6bc431a9
-	k8s.io/apiserver v0.0.0-20200323044150-822585c65b38
-	k8s.io/client-go v0.0.0-20200325002657-80b546a37f63
+	k8s.io/apiserver v0.0.0-20200325044808-ae4447c55d25
+	k8s.io/client-go v0.0.0-20200325043332-c20e80a28e46
 	k8s.io/code-generator v0.0.0-20200324222716-134829e366d8
-	k8s.io/component-base v0.0.0-20200323043823-bedba4b6402d
+	k8s.io/component-base v0.0.0-20200325044347-96026f7a5f3b
 	k8s.io/klog v1.0.0
 	k8s.io/kube-openapi v0.0.0-20200121204235-bf4fb3bd569c
-	k8s.io/utils v0.0.0-20200322164244-327a8059b905
+	k8s.io/utils v0.0.0-20200324210504-a9aa75ae1b89
 )
 
 replace (
@@ -30,8 +30,8 @@ replace (
 	golang.org/x/tools => golang.org/x/tools v0.0.0-20190821162956-65e3620a7ae7 // pinned to release-branch.go1.13
 	k8s.io/api => k8s.io/api v0.0.0-20200320042356-1fc28ea2498c
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20200324202305-1aec6bc431a9
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20200323044150-822585c65b38
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20200325002657-80b546a37f63
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20200325044808-ae4447c55d25
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20200325043332-c20e80a28e46
 	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20200324222716-134829e366d8
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20200323043823-bedba4b6402d
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20200325044347-96026f7a5f3b
 )
