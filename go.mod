@@ -8,28 +8,28 @@ require (
 	github.com/davecgh/go-spew v1.1.1
 	github.com/emicklei/go-restful v2.9.5+incompatible
 	github.com/go-openapi/spec v0.19.3
-	github.com/gogo/protobuf v1.3.1
+	github.com/gogo/protobuf v1.3.2
 	github.com/json-iterator/go v1.1.10
 	github.com/spf13/cobra v1.1.1
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.6.1
 	golang.org/x/net v0.0.0-20201110031124-69a78807bb2b
-	k8s.io/api v0.0.0-20210130041000-c6cc3d92897e
-	k8s.io/apimachinery v0.0.0-20210130040829-28da342a16da
-	k8s.io/apiserver v0.0.0-20210130041911-e99c63ffaf24
-	k8s.io/client-go v0.0.0-20210130041207-ab82d40f6e85
-	k8s.io/code-generator v0.0.0-20210130040700-dd857b45b2d0
-	k8s.io/component-base v0.0.0-20210130041611-8d97eb5907d0
+	k8s.io/api v0.0.0-20210202201024-9f65ac4826aa
+	k8s.io/apimachinery v0.0.0-20210202200849-9e39a13d2cab
+	k8s.io/apiserver v0.0.0-20210202202013-0d37c2610c65
+	k8s.io/client-go v0.0.0-20210202201239-3147a30d7bb5
+	k8s.io/code-generator v0.0.0-20210202200712-b6eef682227f
+	k8s.io/component-base v0.0.0-20210202201701-81d9ea233619
 	k8s.io/klog/v2 v2.5.0
 	k8s.io/kube-openapi v0.0.0-20201113171705-d219536bb9fd
 	k8s.io/utils v0.0.0-20201110183641-67b214c5f920
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20210130041000-c6cc3d92897e
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20210130040829-28da342a16da
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20210130041911-e99c63ffaf24
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20210130041207-ab82d40f6e85
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20210130040700-dd857b45b2d0
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20210130041611-8d97eb5907d0
+	k8s.io/api => k8s.io/api v0.0.0-20210202201024-9f65ac4826aa
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20210202200849-9e39a13d2cab
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20210202202013-0d37c2610c65
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20210202201239-3147a30d7bb5
+	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20210202200712-b6eef682227f
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20210202201701-81d9ea233619
 )
