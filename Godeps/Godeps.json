@@ -924,7 +924,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "b3737e4729cb"
+			"Rev": "83e6b5ff9c68"
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
@@ -936,7 +936,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/code-generator",
-			"Rev": "3fae6187c462"
+			"Rev": "b9c3fe925685"
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
