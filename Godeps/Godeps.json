@@ -920,7 +920,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "f74349e9b412"
+			"Rev": "a2da199c9e35"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
@@ -964,7 +964,7 @@
 		},
 		{
 			"ImportPath": "sigs.k8s.io/apiserver-network-proxy/konnectivity-client",
-			"Rev": "v0.0.15"
+			"Rev": "v0.0.19"
 		},
 		{
 			"ImportPath": "sigs.k8s.io/structured-merge-diff/v4",
