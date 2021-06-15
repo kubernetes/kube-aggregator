@@ -8,17 +8,17 @@ require (
 	github.com/davecgh/go-spew v1.1.1
 	github.com/emicklei/go-restful v2.9.5+incompatible
 	github.com/gogo/protobuf v1.3.2
-	github.com/json-iterator/go v1.1.10
-	github.com/spf13/cobra v1.1.1
+	github.com/json-iterator/go v1.1.11
+	github.com/spf13/cobra v1.1.3
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.7.0
-	golang.org/x/net v0.0.0-20210224082022-3d97a244fca7
-	k8s.io/api v0.0.0-20210608234611-443865cb5023
-	k8s.io/apimachinery v0.0.0-20210608234431-94d246571289
-	k8s.io/apiserver v0.0.0-20210615060548-bf5efd7d99bd
-	k8s.io/client-go v0.0.0-20210611014049-1bccfc8c6097
-	k8s.io/code-generator v0.0.0-20210608234258-af0b5d9491e0
-	k8s.io/component-base v0.0.0-20210615060202-467049977d20
+	golang.org/x/net v0.0.0-20210405180319-a5a99cb37ef4
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/code-generator v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.9.0
 	k8s.io/kube-openapi v0.0.0-20210421082810-95288971da7e
 	k8s.io/utils v0.0.0-20210521133846-da695404a2bc
@@ -26,10 +26,11 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20210608234611-443865cb5023
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20210608234431-94d246571289
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20210615060548-bf5efd7d99bd
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20210611014049-1bccfc8c6097
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20210608234258-af0b5d9491e0
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20210615060202-467049977d20
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/code-generator => ../code-generator
+	k8s.io/component-base => ../component-base
+	k8s.io/kube-aggregator => ../kube-aggregator
 )
