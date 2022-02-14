@@ -12,12 +12,12 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.7.0
 	golang.org/x/net v0.0.0-20220225172249-27dd8689420f
-	k8s.io/api v0.0.0-20220722161209-9a18f7af64ea
-	k8s.io/apimachinery v0.0.0-20220722160306-066110477272
-	k8s.io/apiserver v0.0.0-20220722165500-286d8e736de5
-	k8s.io/client-go v0.0.0-20220722162230-95a40e254c5f
-	k8s.io/code-generator v0.0.0-20220719123406-a08f67b4c688
-	k8s.io/component-base v0.0.0-20220722164051-d68b4289d0d7
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/code-generator v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.70.1
 	k8s.io/kube-openapi v0.0.0-20220627174259-011e075b9cb8
 	k8s.io/utils v0.0.0-20220210201930-3a6ce19ff2f9
@@ -53,7 +53,7 @@ require (
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/mailru/easyjson v0.7.6 // indirect
-	github.com/matttproud/golang_protobuf_extensions v1.0.2-0.20181231171920-c182affec369 // indirect
+	github.com/matttproud/golang_protobuf_extensions v1.0.1 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
@@ -106,10 +106,11 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20220722161209-9a18f7af64ea
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220722160306-066110477272
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220722165500-286d8e736de5
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20220722162230-95a40e254c5f
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20220719123406-a08f67b4c688
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20220722164051-d68b4289d0d7
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/code-generator => ../code-generator
+	k8s.io/component-base => ../component-base
+	k8s.io/kube-aggregator => ../kube-aggregator
 )
