@@ -12,12 +12,12 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.7.0
 	golang.org/x/net v0.0.0-20220127200216-cd36cc0744dd
-	k8s.io/api v0.0.0-20220507182958-548c53c6e4e7
-	k8s.io/apimachinery v0.0.0-20220507150116-b85d88926e14
-	k8s.io/apiserver v0.0.0-20220507184452-382f813c0022
-	k8s.io/client-go v0.0.0-20220507183325-7c5b74295ff7
-	k8s.io/code-generator v0.0.0-20220507150116-acd6f5bf87a8
-	k8s.io/component-base v0.0.0-20220505103914-99e6e4beb802
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/code-generator v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.60.1
 	k8s.io/kube-openapi v0.0.0-20220328201542-3ee0da9b0b42
 	k8s.io/utils v0.0.0-20220210201930-3a6ce19ff2f9
@@ -36,7 +36,7 @@ require (
 	github.com/evanphx/json-patch v4.12.0+incompatible // indirect
 	github.com/felixge/httpsnoop v1.0.1 // indirect
 	github.com/fsnotify/fsnotify v1.4.9 // indirect
-	github.com/go-logr/logr v1.2.0 // indirect
+	github.com/go-logr/logr v1.2.3 // indirect
 	github.com/go-openapi/jsonpointer v0.19.5 // indirect
 	github.com/go-openapi/jsonreference v0.19.5 // indirect
 	github.com/go-openapi/swag v0.19.14 // indirect
@@ -106,10 +106,11 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20220507182958-548c53c6e4e7
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220507150116-b85d88926e14
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220507184452-382f813c0022
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20220507183325-7c5b74295ff7
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20220507150116-acd6f5bf87a8
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20220505103914-99e6e4beb802
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/code-generator => ../code-generator
+	k8s.io/component-base => ../component-base
+	k8s.io/kube-aggregator => ../kube-aggregator
 )
