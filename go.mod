@@ -6,20 +6,20 @@ go 1.18
 
 require (
 	github.com/davecgh/go-spew v1.1.1
-	github.com/emicklei/go-restful v2.9.5+incompatible
+	github.com/emicklei/go-restful/v3 v3.7.5-0.20220308211933-7c971ca4d0fd
 	github.com/gogo/protobuf v1.3.2
 	github.com/spf13/cobra v1.4.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.7.0
 	golang.org/x/net v0.0.0-20220127200216-cd36cc0744dd
-	k8s.io/api v0.0.0-20220531234821-832b1f4dc5da
-	k8s.io/apimachinery v0.0.0-20220527204257-be3a79b26814
-	k8s.io/apiserver v0.0.0-20220603200943-626d580b085d
-	k8s.io/client-go v0.0.0-20220530124808-f88de91ae5c1
-	k8s.io/code-generator v0.0.0-20220512215755-7d977b3e5454
-	k8s.io/component-base v0.0.0-20220531235246-ba9c052508ce
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/code-generator v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.60.1
-	k8s.io/kube-openapi v0.0.0-20220328201542-3ee0da9b0b42
+	k8s.io/kube-openapi v0.0.0-20220603121420-31174f50af60
 	k8s.io/utils v0.0.0-20220210201930-3a6ce19ff2f9
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.1
 )
@@ -106,10 +106,11 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20220531234821-832b1f4dc5da
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220527204257-be3a79b26814
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220603200943-626d580b085d
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20220530124808-f88de91ae5c1
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20220512215755-7d977b3e5454
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20220531235246-ba9c052508ce
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/code-generator => ../code-generator
+	k8s.io/component-base => ../component-base
+	k8s.io/kube-aggregator => ../kube-aggregator
 )
