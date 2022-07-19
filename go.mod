@@ -12,12 +12,12 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.7.0
 	golang.org/x/net v0.0.0-20220225172249-27dd8689420f
-	k8s.io/api v0.0.0-20220722161207-096c9df2b1e5
-	k8s.io/apimachinery v0.0.0-20220715210607-cff14a57b273
-	k8s.io/apiserver v0.0.0-20220722165453-ec7222743902
-	k8s.io/client-go v0.0.0-20220715211111-c6bd30b9ec5f
-	k8s.io/code-generator v0.0.0-20220714130400-40a88eb49f4e
-	k8s.io/component-base v0.0.0-20220714131716-acb17c407a9a
+	k8s.io/api v0.0.0-20220722161209-9a18f7af64ea
+	k8s.io/apimachinery v0.0.0-20220722160306-066110477272
+	k8s.io/apiserver v0.0.0-20220722165500-286d8e736de5
+	k8s.io/client-go v0.0.0-20220722162230-95a40e254c5f
+	k8s.io/code-generator v0.0.0-20220719123406-a08f67b4c688
+	k8s.io/component-base v0.0.0-20220722164051-d68b4289d0d7
 	k8s.io/klog/v2 v2.70.1
 	k8s.io/kube-openapi v0.0.0-20220627174259-011e075b9cb8
 	k8s.io/utils v0.0.0-20220210201930-3a6ce19ff2f9
@@ -101,15 +101,15 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/gengo v0.0.0-20211129171323-c02415ce4185 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.32 // indirect
-	sigs.k8s.io/json v0.0.0-20211208200746-9f7c6b3444d2 // indirect
+	sigs.k8s.io/json v0.0.0-20220713155537-f223a00ba0e2 // indirect
 	sigs.k8s.io/yaml v1.2.0 // indirect
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20220722161207-096c9df2b1e5
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220715210607-cff14a57b273
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220722165453-ec7222743902
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20220715211111-c6bd30b9ec5f
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20220714130400-40a88eb49f4e
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20220714131716-acb17c407a9a
+	k8s.io/api => k8s.io/api v0.0.0-20220722161209-9a18f7af64ea
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220722160306-066110477272
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220722165500-286d8e736de5
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20220722162230-95a40e254c5f
+	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20220719123406-a08f67b4c688
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20220722164051-d68b4289d0d7
 )
