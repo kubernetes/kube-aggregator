@@ -12,12 +12,12 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.7.0
 	golang.org/x/net v0.0.0-20220722155237-a158d28d115b
-	k8s.io/api v0.0.0-20220804201334-3be517c25d08
-	k8s.io/apimachinery v0.0.0-20220804201133-74deb3dbf6fd
-	k8s.io/apiserver v0.0.0-20220810185626-8e5b2d1625f8
-	k8s.io/client-go v0.0.0-20220804201634-3300752b6159
-	k8s.io/code-generator v0.0.0-20220810182828-7a6b27b949b5
-	k8s.io/component-base v0.0.0-20220810184732-a3ff0a6aeab5
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/code-generator v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.70.1
 	k8s.io/kube-openapi v0.0.0-20220803162953-67bda5d908f1
 	k8s.io/utils v0.0.0-20220728103510-ee6ede2d64ed
@@ -43,7 +43,7 @@ require (
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/google/gnostic v0.5.7-v3refs // indirect
-	github.com/google/go-cmp v0.5.6 // indirect
+	github.com/google/go-cmp v0.5.8 // indirect
 	github.com/google/gofuzz v1.1.0 // indirect
 	github.com/google/uuid v1.1.2 // indirect
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0 // indirect
@@ -105,10 +105,11 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20220804201334-3be517c25d08
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220804201133-74deb3dbf6fd
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220810185626-8e5b2d1625f8
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20220804201634-3300752b6159
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20220810182828-7a6b27b949b5
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20220810184732-a3ff0a6aeab5
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/code-generator => ../code-generator
+	k8s.io/component-base => ../component-base
+	k8s.io/kube-aggregator => ../kube-aggregator
 )
