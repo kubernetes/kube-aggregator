@@ -11,13 +11,13 @@ require (
 	github.com/spf13/cobra v1.6.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.0
-	golang.org/x/net v0.0.0-20220722155237-a158d28d115b
-	k8s.io/api v0.0.0-20221019235207-4e8dc44b5ed4
-	k8s.io/apimachinery v0.0.0-20221025074955-6809593a7033
-	k8s.io/apiserver v0.0.0-20221027080251-507ddf331cc8
-	k8s.io/client-go v0.0.0-20221019075459-ef8a2e522779
-	k8s.io/code-generator v0.0.0-20221018161754-557ce1f667c7
-	k8s.io/component-base v0.0.0-20221020195653-9fd3a641bd31
+	golang.org/x/net v0.1.1-0.20221027164007-c63010009c80
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/code-generator v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.80.1
 	k8s.io/kube-openapi v0.0.0-20221012153701-172d655c2280
 	k8s.io/utils v0.0.0-20220922133306-665eaaec4324
@@ -84,9 +84,9 @@ require (
 	golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4 // indirect
 	golang.org/x/oauth2 v0.0.0-20220223155221-ee480838109b // indirect
 	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 // indirect
-	golang.org/x/sys v0.0.0-20220908164124-27713097b956 // indirect
-	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211 // indirect
-	golang.org/x/text v0.3.8 // indirect
+	golang.org/x/sys v0.1.0 // indirect
+	golang.org/x/term v0.1.0 // indirect
+	golang.org/x/text v0.4.0 // indirect
 	golang.org/x/time v0.0.0-20220210224613-90d013bbcef8 // indirect
 	golang.org/x/tools v0.1.12 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
@@ -98,18 +98,19 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/gengo v0.0.0-20220902162205-c0856e24416d // indirect
-	k8s.io/kms v0.0.0-20221014080727-25ac69204108 // indirect
+	k8s.io/kms v0.0.0 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.33 // indirect
 	sigs.k8s.io/json v0.0.0-20220713155537-f223a00ba0e2 // indirect
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20221019235207-4e8dc44b5ed4
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20221025074955-6809593a7033
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20221027080251-507ddf331cc8
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20221019075459-ef8a2e522779
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20221018161754-557ce1f667c7
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20221020195653-9fd3a641bd31
-	k8s.io/kms => k8s.io/kms v0.0.0-20221014080727-25ac69204108
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/code-generator => ../code-generator
+	k8s.io/component-base => ../component-base
+	k8s.io/kms => ../kms
+	k8s.io/kube-aggregator => ../kube-aggregator
 )
