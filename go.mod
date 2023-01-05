@@ -13,12 +13,12 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.0
 	golang.org/x/net v0.4.0
-	k8s.io/api v0.0.0-20230107074241-4c5bbc66c0cd
-	k8s.io/apimachinery v0.0.0-20230107073608-9f24624c29e7
-	k8s.io/apiserver v0.0.0-20230107081854-600e1b7356e1
-	k8s.io/client-go v0.0.0-20230107075103-fda1b1132eb2
-	k8s.io/code-generator v0.0.0-20230107073139-e746d1fb14e3
-	k8s.io/component-base v0.0.0-20230107080738-c023e83ebc7e
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/code-generator v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.80.1
 	k8s.io/kube-openapi v0.0.0-20230106171958-10e5f0effbd2
 	k8s.io/utils v0.0.0-20221107191617-1a15be271d1d
@@ -101,18 +101,19 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/gengo v0.0.0-20220902162205-c0856e24416d // indirect
-	k8s.io/kms v0.0.0-20230107081412-94e3799ee43e // indirect
+	k8s.io/kms v0.0.0 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.35 // indirect
 	sigs.k8s.io/json v0.0.0-20220713155537-f223a00ba0e2 // indirect
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20230107074241-4c5bbc66c0cd
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230107073608-9f24624c29e7
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230107081854-600e1b7356e1
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230107075103-fda1b1132eb2
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20230107073139-e746d1fb14e3
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230107080738-c023e83ebc7e
-	k8s.io/kms => k8s.io/kms v0.0.0-20230107081412-94e3799ee43e
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/code-generator => ../code-generator
+	k8s.io/component-base => ../component-base
+	k8s.io/kms => ../kms
+	k8s.io/kube-aggregator => ../kube-aggregator
 )
