@@ -15,7 +15,7 @@ require (
 	golang.org/x/net v0.7.0
 	k8s.io/api v0.0.0-20230228090300-2ed8d24822d3
 	k8s.io/apimachinery v0.0.0-20230301150529-776e66cfe42c
-	k8s.io/apiserver v0.0.0-20230301171435-c2c986809644
+	k8s.io/apiserver v0.0.0-20230301211437-74ce81dc7a45
 	k8s.io/client-go v0.0.0-20230301070917-089d04441d98
 	k8s.io/code-generator v0.0.0-20230227225516-e4df4d56ade9
 	k8s.io/component-base v0.0.0-20230301013520-2acccc807c76
@@ -67,9 +67,9 @@ require (
 	github.com/prometheus/common v0.37.0 // indirect
 	github.com/prometheus/procfs v0.8.0 // indirect
 	github.com/stoewer/go-strcase v1.2.0 // indirect
-	go.etcd.io/etcd/api/v3 v3.5.5 // indirect
-	go.etcd.io/etcd/client/pkg/v3 v3.5.5 // indirect
-	go.etcd.io/etcd/client/v3 v3.5.5 // indirect
+	go.etcd.io/etcd/api/v3 v3.5.7 // indirect
+	go.etcd.io/etcd/client/pkg/v3 v3.5.7 // indirect
+	go.etcd.io/etcd/client/v3 v3.5.7 // indirect
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.35.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.35.1 // indirect
 	go.opentelemetry.io/otel v1.10.0 // indirect
@@ -110,7 +110,7 @@ require (
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20230228090300-2ed8d24822d3
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230301150529-776e66cfe42c
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230301171435-c2c986809644
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230301211437-74ce81dc7a45
 	k8s.io/client-go => k8s.io/client-go v0.0.0-20230301070917-089d04441d98
 	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20230227225516-e4df4d56ade9
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20230301013520-2acccc807c76
