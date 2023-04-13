@@ -12,14 +12,14 @@ require (
 	github.com/google/gofuzz v1.1.0
 	github.com/spf13/cobra v1.6.0
 	github.com/spf13/pflag v1.0.5
-	github.com/stretchr/testify v1.8.1
+	github.com/stretchr/testify v1.8.2
 	golang.org/x/net v0.8.0
-	k8s.io/api v0.0.0-20230412115724-b0b8e3f95d08
-	k8s.io/apimachinery v0.0.0-20230413173537-bd44860cb75b
-	k8s.io/apiserver v0.0.0-20230413135656-e395bf02154e
-	k8s.io/client-go v0.0.0-20230413125158-46f963913c19
-	k8s.io/code-generator v0.0.0-20230413000802-e28c955d43c2
-	k8s.io/component-base v0.0.0-20230413175749-5190474c236c
+	k8s.io/api v0.0.0-20230413214513-e2bb673563f3
+	k8s.io/apimachinery v0.0.0-20230413213732-71d667e55043
+	k8s.io/apiserver v0.0.0-20230413222757-d3fa9a05b8a6
+	k8s.io/client-go v0.0.0-20230413215200-4e89310f6ea6
+	k8s.io/code-generator v0.0.0-20230413212852-473f30d835d0
+	k8s.io/component-base v0.0.0-20230413220226-c4f7b7e7a6ce
 	k8s.io/klog/v2 v2.90.1
 	k8s.io/kube-openapi v0.0.0-20230308215209-15aac26d736a
 	k8s.io/utils v0.0.0-20230209194617-a36077c30491
@@ -85,7 +85,7 @@ require (
 	go.uber.org/atomic v1.7.0 // indirect
 	go.uber.org/multierr v1.6.0 // indirect
 	go.uber.org/zap v1.19.0 // indirect
-	golang.org/x/crypto v0.1.0 // indirect
+	golang.org/x/crypto v0.6.0 // indirect
 	golang.org/x/mod v0.9.0 // indirect
 	golang.org/x/oauth2 v0.0.0-20220223155221-ee480838109b // indirect
 	golang.org/x/sync v0.1.0 // indirect
@@ -110,11 +110,11 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20230412115724-b0b8e3f95d08
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230413173537-bd44860cb75b
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230413135656-e395bf02154e
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230413125158-46f963913c19
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20230413000802-e28c955d43c2
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230413175749-5190474c236c
+	k8s.io/api => k8s.io/api v0.0.0-20230413214513-e2bb673563f3
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230413213732-71d667e55043
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230413222757-d3fa9a05b8a6
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20230413215200-4e89310f6ea6
+	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20230413212852-473f30d835d0
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20230413220226-c4f7b7e7a6ce
 	k8s.io/kms => k8s.io/kms v0.0.0-20230413003758-a38ec9832062
 )
