@@ -5,7 +5,6 @@ module k8s.io/kube-aggregator
 go 1.20
 
 require (
-	github.com/davecgh/go-spew v1.1.1
 	github.com/emicklei/go-restful/v3 v3.9.0
 	github.com/gogo/protobuf v1.3.2
 	github.com/google/go-cmp v0.5.9
@@ -15,9 +14,9 @@ require (
 	github.com/stretchr/testify v1.8.2
 	golang.org/x/net v0.8.0
 	k8s.io/api v0.0.0-20230413214513-e2bb673563f3
-	k8s.io/apimachinery v0.0.0-20230413213732-71d667e55043
-	k8s.io/apiserver v0.0.0-20230413222757-d3fa9a05b8a6
-	k8s.io/client-go v0.0.0-20230413215200-4e89310f6ea6
+	k8s.io/apimachinery v0.0.0-20230414053554-40ea93bb2f46
+	k8s.io/apiserver v0.0.0-20230414061211-e643c04bdd48
+	k8s.io/client-go v0.0.0-20230414055356-1dc92da6638c
 	k8s.io/code-generator v0.0.0-20230413212852-473f30d835d0
 	k8s.io/component-base v0.0.0-20230413220226-c4f7b7e7a6ce
 	k8s.io/klog/v2 v2.90.1
@@ -36,6 +35,7 @@ require (
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
 	github.com/coreos/go-semver v0.3.0 // indirect
 	github.com/coreos/go-systemd/v22 v22.4.0 // indirect
+	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/evanphx/json-patch v4.12.0+incompatible // indirect
 	github.com/felixge/httpsnoop v1.0.3 // indirect
 	github.com/fsnotify/fsnotify v1.6.0 // indirect
@@ -111,9 +111,9 @@ require (
 
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20230413214513-e2bb673563f3
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230413213732-71d667e55043
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230413222757-d3fa9a05b8a6
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230413215200-4e89310f6ea6
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230414053554-40ea93bb2f46
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230414061211-e643c04bdd48
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20230414055356-1dc92da6638c
 	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20230413212852-473f30d835d0
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20230413220226-c4f7b7e7a6ce
 	k8s.io/kms => k8s.io/kms v0.0.0-20230413003758-a38ec9832062
