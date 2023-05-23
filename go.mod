@@ -13,11 +13,11 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.0
 	golang.org/x/net v0.8.0
-	k8s.io/api v0.0.0-20230504161039-c9f384e22127
-	k8s.io/apimachinery v0.0.0-20230504155441-b207ce547a90
-	k8s.io/apiserver v0.0.0-20230511200502-6d29734aec9e
-	k8s.io/client-go v0.0.0-20230504163259-038b381bf689
-	k8s.io/code-generator v0.0.0-20230504152813-eec869e1b034
+	k8s.io/api v0.0.0-20230511174914-37e98ba1f0aa
+	k8s.io/apimachinery v0.0.0-20230523182049-b45fce6213dd
+	k8s.io/apiserver v0.0.0-20230523190913-99f3088683f8
+	k8s.io/client-go v0.0.0-20230523184531-a3a549a55ac8
+	k8s.io/code-generator v0.0.0-20230523181521-d69bde275e5d
 	k8s.io/component-base v0.0.0-20230504170251-db961f20ba61
 	k8s.io/klog/v2 v2.80.1
 	k8s.io/kube-openapi v0.0.0-20221012153701-172d655c2280
@@ -47,7 +47,7 @@ require (
 	github.com/google/cel-go v0.12.6 // indirect
 	github.com/google/gnostic v0.5.7-v3refs // indirect
 	github.com/google/go-cmp v0.5.9 // indirect
-	github.com/google/uuid v1.1.2 // indirect
+	github.com/google/uuid v1.3.0 // indirect
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.7.0 // indirect
 	github.com/imdario/mergo v0.3.6 // indirect
@@ -108,11 +108,11 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20230504161039-c9f384e22127
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230504155441-b207ce547a90
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230511200502-6d29734aec9e
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230504163259-038b381bf689
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20230504152813-eec869e1b034
+	k8s.io/api => k8s.io/api v0.0.0-20230511174914-37e98ba1f0aa
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230523182049-b45fce6213dd
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230523190913-99f3088683f8
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20230523184531-a3a549a55ac8
+	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20230523181521-d69bde275e5d
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20230504170251-db961f20ba61
 	k8s.io/kms => k8s.io/kms v0.0.0-20230504170951-d4d1c139a661
 )
