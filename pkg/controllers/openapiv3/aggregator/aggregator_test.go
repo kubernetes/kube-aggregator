@@ -89,7 +89,7 @@ func TestV2APIService(t *testing.T) {
 	downloader := Downloader{}
 	pathHandler := mux.NewPathRecorderMux("aggregator_test")
 	var serveHandler http.Handler = pathHandler
-	specProxier, err := BuildAndRegisterAggregator(downloader, genericapiserver.NewEmptyDelegate(), pathHandler)
+	specProxier, err := BuildAndRegisterAggregator(downloader, genericapiserver.NewEmptyDelegate(), nil, nil, pathHandler)
 	if err != nil {
 		t.Error(err)
 	}
@@ -146,7 +146,7 @@ func TestV3APIService(t *testing.T) {
 
 	pathHandler := mux.NewPathRecorderMux("aggregator_test")
 	var serveHandler http.Handler = pathHandler
-	specProxier, err := BuildAndRegisterAggregator(downloader, genericapiserver.NewEmptyDelegate(), pathHandler)
+	specProxier, err := BuildAndRegisterAggregator(downloader, genericapiserver.NewEmptyDelegate(), nil, nil, pathHandler)
 	if err != nil {
 		t.Error(err)
 	}
@@ -191,7 +191,7 @@ func TestOpenAPIRequestMetrics(t *testing.T) {
 
 	pathHandler := mux.NewPathRecorderMux("aggregator_metrics_test")
 	var serveHandler http.Handler = pathHandler
-	specProxier, err := BuildAndRegisterAggregator(downloader, genericapiserver.NewEmptyDelegate(), pathHandler)
+	specProxier, err := BuildAndRegisterAggregator(downloader, genericapiserver.NewEmptyDelegate(), nil, nil, pathHandler)
 	if err != nil {
 		t.Error(err)
 	}
