@@ -13,12 +13,12 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.2
 	golang.org/x/net v0.9.0
-	k8s.io/api v0.0.0-20230706062605-a69cc64b8aea
+	k8s.io/api v0.0.0-20230706213904-5d126b39754e
 	k8s.io/apimachinery v0.0.0-20230628220152-83d6d372b1a4
-	k8s.io/apiserver v0.0.0-20230706073227-73ba48c7f9a5
-	k8s.io/client-go v0.0.0-20230706063706-5d8fd6bf0a71
+	k8s.io/apiserver v0.0.0-20230706235547-5d08b1abe9ad
+	k8s.io/client-go v0.0.0-20230706193217-d31edad7e26d
 	k8s.io/code-generator v0.0.0-20230619010117-b510e2c81c00
-	k8s.io/component-base v0.0.0-20230629215145-b8f9f7cc1db2
+	k8s.io/component-base v0.0.0-20230706070231-63369697f0ec
 	k8s.io/klog/v2 v2.100.1
 	k8s.io/kube-openapi v0.0.0-20230601164746-7562a1006961
 	k8s.io/utils v0.0.0-20230406110748-d93618cff8a2
@@ -105,18 +105,18 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/gengo v0.0.0-20220902162205-c0856e24416d // indirect
-	k8s.io/kms v0.0.0-20230619011758-484bb0d20287 // indirect
+	k8s.io/kms v0.0.0-20230706235007-2273d4f89020 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.1.2 // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20230706062605-a69cc64b8aea
+	k8s.io/api => k8s.io/api v0.0.0-20230706213904-5d126b39754e
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230628220152-83d6d372b1a4
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230706073227-73ba48c7f9a5
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230706063706-5d8fd6bf0a71
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230706235547-5d08b1abe9ad
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20230706193217-d31edad7e26d
 	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20230619010117-b510e2c81c00
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230629215145-b8f9f7cc1db2
-	k8s.io/kms => k8s.io/kms v0.0.0-20230619011758-484bb0d20287
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20230706070231-63369697f0ec
+	k8s.io/kms => k8s.io/kms v0.0.0-20230706235007-2273d4f89020
 )
