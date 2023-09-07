@@ -16,7 +16,7 @@ require (
 	golang.org/x/net v0.8.0
 	k8s.io/api v0.0.0-20230828183613-acad30015007
 	k8s.io/apimachinery v0.0.0-20230716201907-f46cb694b153
-	k8s.io/apiserver v0.0.0-20230825164852-8a97cf24afd6
+	k8s.io/apiserver v0.0.0-20230907070629-b9faf8358c6e
 	k8s.io/client-go v0.0.0-20230904105423-fa3c65eff08b
 	k8s.io/code-generator v0.0.0-20230705153058-ad209354fb6b
 	k8s.io/component-base v0.0.0-20230705190003-c964270bd046
@@ -46,7 +46,7 @@ require (
 	github.com/go-openapi/swag v0.22.3 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
-	github.com/google/cel-go v0.12.6 // indirect
+	github.com/google/cel-go v0.12.7 // indirect
 	github.com/google/gnostic v0.5.7-v3refs // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0 // indirect
@@ -112,7 +112,7 @@ require (
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20230828183613-acad30015007
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230716201907-f46cb694b153
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230825164852-8a97cf24afd6
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230907070629-b9faf8358c6e
 	k8s.io/client-go => k8s.io/client-go v0.0.0-20230904105423-fa3c65eff08b
 	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20230705153058-ad209354fb6b
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20230705190003-c964270bd046

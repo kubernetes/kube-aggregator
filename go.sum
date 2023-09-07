@@ -171,8 +171,8 @@ github.com/golang/protobuf v1.5.3/go.mod h1:XVQd3VNwM+JqD3oG2Ue2ip4fOMUkwXdXDdiu
 github.com/google/btree v0.0.0-20180813153112-4030bb1f1f0c/go.mod h1:lNA+9X1NB3Zf8V7Ke586lFgjr2dZNuvo3lPJSGZ5JPQ=
 github.com/google/btree v1.0.0/go.mod h1:lNA+9X1NB3Zf8V7Ke586lFgjr2dZNuvo3lPJSGZ5JPQ=
 github.com/google/btree v1.0.1 h1:gK4Kx5IaGY9CD5sPJ36FHiBJ6ZXl0kilRiiCj+jdYp4=
-github.com/google/cel-go v0.12.6 h1:kjeKudqV0OygrAqA9fX6J55S8gj+Jre2tckIm5RoG4M=
-github.com/google/cel-go v0.12.6/go.mod h1:Jk7ljRzLBhkmiAwBoUxB1sZSCVBAzkqPF25olK/iRDw=
+github.com/google/cel-go v0.12.7 h1:jM6p55R0MKBg79hZjn1zs2OlrywZ1Vk00rxVvad1/O0=
+github.com/google/cel-go v0.12.7/go.mod h1:Jk7ljRzLBhkmiAwBoUxB1sZSCVBAzkqPF25olK/iRDw=
 github.com/google/gnostic v0.5.7-v3refs h1:FhTMOKj2VhjpouxvWJAV1TL304uMlb9zcDqkl6cEI54=
 github.com/google/gnostic v0.5.7-v3refs/go.mod h1:73MKFl6jIHelAJNaBGFzt3SPtZULs9dYrGFt8OiIsHQ=
 github.com/google/go-cmp v0.2.0/go.mod h1:oXzfMopK8JAjlY9xF4vHSVASa0yLyX7SntLO5aqRK0M=
@@ -720,8 +720,8 @@ k8s.io/api v0.0.0-20230828183613-acad30015007 h1:ZlK0k2inBupPxnX2qFcK5qGNJSjtFyV
 k8s.io/api v0.0.0-20230828183613-acad30015007/go.mod h1:BWkQci1GNcqqb+qGAExwyIXADZGrGeKn7HyT0uocwWM=
 k8s.io/apimachinery v0.0.0-20230716201907-f46cb694b153 h1:x2PSNcoDv7r2/kHjMWs1jAWYQjINJElAVG7B0mEOF2E=
 k8s.io/apimachinery v0.0.0-20230716201907-f46cb694b153/go.mod h1:XNfZ6xklnMCOGGFNqXG7bUrQCoR04dh/E7FprV6pb+E=
-k8s.io/apiserver v0.0.0-20230825164852-8a97cf24afd6 h1:g9Fp/1PtMOQ1uPLu7NDIe0UkMymNUB+BiRAozQY0EYQ=
-k8s.io/apiserver v0.0.0-20230825164852-8a97cf24afd6/go.mod h1:F7scOl2EHing7EbCnCGGC2PG0OQgC5Yy28jWY3cu5W0=
+k8s.io/apiserver v0.0.0-20230907070629-b9faf8358c6e h1:LDLDZORioh16RSTj4AHAx7poc36/Vxr1kp9TVIjgIM8=
+k8s.io/apiserver v0.0.0-20230907070629-b9faf8358c6e/go.mod h1:w8nsG0nIQlF2KoHVeL8a786g+wqIK2/WhD5ZWrGzKT8=
 k8s.io/client-go v0.0.0-20230904105423-fa3c65eff08b h1:aHWxl9uYkZ7L/t0SkvkHsiE/xZOsndwFOUR1AqNPozw=
 k8s.io/client-go v0.0.0-20230904105423-fa3c65eff08b/go.mod h1:TozZwdeMeVU9+yYvidQ1t/95jUh0DMTHptRsVbwadJw=
 k8s.io/code-generator v0.0.0-20230705153058-ad209354fb6b h1:qkktfKuIGwTpHaqgGQH61LPgmHpJYCfvY5KuXJ8VFjU=
