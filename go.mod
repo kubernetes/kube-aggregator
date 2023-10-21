@@ -14,12 +14,12 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.0
 	golang.org/x/net v0.17.0
-	k8s.io/api v0.0.0-20231012112256-fd69e66e5682
-	k8s.io/apimachinery v0.0.0-20231012111352-71fc595479a8
-	k8s.io/apiserver v0.0.0-20231012122704-4c09e7c254b7
-	k8s.io/client-go v0.0.0-20231012114101-f981b0139261
-	k8s.io/code-generator v0.0.0-20231012110631-87375c6ef90f
-	k8s.io/component-base v0.0.0-20231012120608-22e8942c583a
+	k8s.io/api v0.26.10
+	k8s.io/apimachinery v0.26.10
+	k8s.io/apiserver v0.26.10
+	k8s.io/client-go v0.26.10
+	k8s.io/code-generator v0.26.10
+	k8s.io/component-base v0.26.10
 	k8s.io/klog/v2 v2.80.1
 	k8s.io/kube-openapi v0.0.0-20221012153701-172d655c2280
 	k8s.io/utils v0.0.0-20221107191617-1a15be271d1d
@@ -101,18 +101,18 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/gengo v0.0.0-20220902162205-c0856e24416d // indirect
-	k8s.io/kms v0.0.0-20231012121407-a9d07cf69405 // indirect
+	k8s.io/kms v0.26.10 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.37 // indirect
 	sigs.k8s.io/json v0.0.0-20220713155537-f223a00ba0e2 // indirect
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20231012112256-fd69e66e5682
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20231012111352-71fc595479a8
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20231012122704-4c09e7c254b7
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20231012114101-f981b0139261
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20231012110631-87375c6ef90f
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20231012120608-22e8942c583a
-	k8s.io/kms => k8s.io/kms v0.0.0-20231012121407-a9d07cf69405
+	k8s.io/api => k8s.io/api v0.26.10
+	k8s.io/apimachinery => k8s.io/apimachinery v0.26.10
+	k8s.io/apiserver => k8s.io/apiserver v0.26.10
+	k8s.io/client-go => k8s.io/client-go v0.26.10
+	k8s.io/code-generator => k8s.io/code-generator v0.26.10
+	k8s.io/component-base => k8s.io/component-base v0.26.10
+	k8s.io/kms => k8s.io/kms v0.26.10
 )
