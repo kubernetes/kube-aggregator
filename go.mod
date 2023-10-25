@@ -13,9 +13,9 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.3
 	golang.org/x/net v0.17.0
-	k8s.io/api v0.0.0-20231023194506-bfce70f1b5c8
+	k8s.io/api v0.0.0-20231024171239-3942070de4fb
 	k8s.io/apimachinery v0.0.0-20231024171030-c18d2bfed439
-	k8s.io/apiserver v0.0.0-20231024172922-618d6a3eb77a
+	k8s.io/apiserver v0.0.0-20231025052416-0e3cbbf0fbfb
 	k8s.io/client-go v0.0.0-20231024171543-e2e59f3539ef
 	k8s.io/code-generator v0.0.0-20231024034032-0f8102fa0710
 	k8s.io/component-base v0.0.0-20231024040035-12d4256eb135
@@ -38,7 +38,7 @@ require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/evanphx/json-patch v4.12.0+incompatible // indirect
 	github.com/felixge/httpsnoop v1.0.3 // indirect
-	github.com/fsnotify/fsnotify v1.6.0 // indirect
+	github.com/fsnotify/fsnotify v1.7.0 // indirect
 	github.com/go-logr/logr v1.2.4 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-openapi/jsonpointer v0.19.6 // indirect
@@ -114,9 +114,9 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20231023194506-bfce70f1b5c8
+	k8s.io/api => k8s.io/api v0.0.0-20231024171239-3942070de4fb
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20231024171030-c18d2bfed439
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20231024172922-618d6a3eb77a
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20231025052416-0e3cbbf0fbfb
 	k8s.io/client-go => k8s.io/client-go v0.0.0-20231024171543-e2e59f3539ef
 	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20231024034032-0f8102fa0710
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20231024040035-12d4256eb135
