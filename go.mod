@@ -13,16 +13,16 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.4
 	golang.org/x/net v0.17.0
-	k8s.io/api v0.0.0-20231031013930-a9aa0dc09108
-	k8s.io/apimachinery v0.0.0-20231031211055-850727f9e38c
-	k8s.io/apiserver v0.0.0-20231031212854-0f520bf96fed
-	k8s.io/client-go v0.0.0-20231031051614-477cb782cf02
-	k8s.io/code-generator v0.0.0-20231027170846-b1e283ffb4d8
-	k8s.io/component-base v0.0.0-20231027174419-7eefecff8918
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/code-generator v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.100.1
 	k8s.io/kube-openapi v0.0.0-20231010175941-2dd684a91f00
 	k8s.io/utils v0.0.0-20230726121419-3b25d923346b
-	sigs.k8s.io/structured-merge-diff/v4 v4.3.0
+	sigs.k8s.io/structured-merge-diff/v4 v4.4.1
 )
 
 require (
@@ -46,7 +46,7 @@ require (
 	github.com/go-openapi/swag v0.22.3 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
-	github.com/google/cel-go v0.17.7 // indirect
+	github.com/google/cel-go v0.17.6 // indirect
 	github.com/google/gnostic-models v0.6.8 // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/gorilla/websocket v1.5.0 // indirect
@@ -106,18 +106,19 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/gengo v0.0.0-20230829151522-9cce18d56c01 // indirect
-	k8s.io/kms v0.0.0-20231031012129-523a5e8e70a1 // indirect
+	k8s.io/kms v0.0.0 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.28.0 // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20231031013930-a9aa0dc09108
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20231031211055-850727f9e38c
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20231031212854-0f520bf96fed
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20231031051614-477cb782cf02
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20231027170846-b1e283ffb4d8
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20231027174419-7eefecff8918
-	k8s.io/kms => k8s.io/kms v0.0.0-20231031012129-523a5e8e70a1
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/code-generator => ../code-generator
+	k8s.io/component-base => ../component-base
+	k8s.io/kms => ../kms
+	k8s.io/kube-aggregator => ../kube-aggregator
 )
