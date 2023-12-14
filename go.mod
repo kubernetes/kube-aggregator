@@ -13,12 +13,12 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.4
 	golang.org/x/net v0.17.0
-	k8s.io/api v0.0.0-20231214011710-3da949756c6e
-	k8s.io/apimachinery v0.0.0-20231214011457-aa9a6c8873ce
-	k8s.io/apiserver v0.0.0-20231214013316-36a3042e2902
-	k8s.io/client-go v0.0.0-20231214012015-feecac4b447f
-	k8s.io/code-generator v0.0.0-20231214011249-cd757812685b
-	k8s.io/component-base v0.0.0-20231214012652-f2e48902f05e
+	k8s.io/api v0.0.0-20231214051658-d7980a488dca
+	k8s.io/apimachinery v0.0.0-20231214011457-e2f405af78de
+	k8s.io/apiserver v0.0.0-20231214213530-3fcf3290fc53
+	k8s.io/client-go v0.0.0-20231214062645-12b0e099db07
+	k8s.io/code-generator v0.0.0-20231214091247-3063918d6414
+	k8s.io/component-base v0.0.0-20231214212714-c18a0491da83
 	k8s.io/klog/v2 v2.110.1
 	k8s.io/kube-openapi v0.0.0-20231113174909-778a5567bc1e
 	k8s.io/utils v0.0.0-20230726121419-3b25d923346b
@@ -82,9 +82,8 @@ require (
 	go.opentelemetry.io/otel/sdk v1.19.0 // indirect
 	go.opentelemetry.io/otel/trace v1.19.0 // indirect
 	go.opentelemetry.io/proto/otlp v1.0.0 // indirect
-	go.uber.org/atomic v1.10.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
-	go.uber.org/zap v1.19.0 // indirect
+	go.uber.org/zap v1.26.0 // indirect
 	golang.org/x/crypto v0.14.0 // indirect
 	golang.org/x/exp v0.0.0-20220722155223-a9213eeb770e // indirect
 	golang.org/x/mod v0.12.0 // indirect
@@ -113,11 +112,11 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20231214011710-3da949756c6e
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20231214011457-aa9a6c8873ce
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20231214013316-36a3042e2902
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20231214012015-feecac4b447f
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20231214011249-cd757812685b
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20231214012652-f2e48902f05e
+	k8s.io/api => k8s.io/api v0.0.0-20231214051658-d7980a488dca
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20231214011457-e2f405af78de
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20231214213530-3fcf3290fc53
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20231214062645-12b0e099db07
+	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20231214091247-3063918d6414
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20231214212714-c18a0491da83
 	k8s.io/kms => k8s.io/kms v0.0.0-20231113172825-1bfdb22033cb
 )
