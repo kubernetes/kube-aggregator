@@ -13,12 +13,12 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.4
 	golang.org/x/net v0.23.0
-	k8s.io/api v0.0.0-20240418013359-a819b1d9bd16
-	k8s.io/apimachinery v0.0.0-20240418013206-77786464c20d
-	k8s.io/apiserver v0.0.0-20240418014436-ba6e7aabe5cc
-	k8s.io/client-go v0.0.0-20240404035629-aa7909e7d7c0
-	k8s.io/code-generator v0.0.0-20240418013756-585ff305a772
-	k8s.io/component-base v0.0.0-20240404040301-d0106a887d7d
+	k8s.io/api v0.0.0-20240418133400-98d0c7a1b77e
+	k8s.io/apimachinery v0.0.0-20240418133208-ea31e5150286
+	k8s.io/apiserver v0.0.0-20240418134839-69d05fc758f5
+	k8s.io/client-go v0.0.0-20240418173639-b1c1c0345d1d
+	k8s.io/code-generator v0.0.0-20240418174133-2a5cd15965ea
+	k8s.io/component-base v0.0.0-20240418094434-57ba0489bfa6
 	k8s.io/klog/v2 v2.120.1
 	k8s.io/kube-openapi v0.0.0-20240228011516-70dd3763d340
 	k8s.io/utils v0.0.0-20230726121419-3b25d923346b
@@ -110,3 +110,5 @@ require (
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
+
+replace k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20240418133208-0ee3e6150890
