@@ -12,11 +12,14 @@ require (
 	github.com/spf13/cobra v1.7.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.4
+	go.opentelemetry.io/otel v1.20.0
+	go.opentelemetry.io/otel/sdk v1.20.0
+	go.opentelemetry.io/otel/trace v1.20.0
 	golang.org/x/net v0.23.0
-	k8s.io/api v0.0.0-20240430013428-7c9431b5bb76
-	k8s.io/apimachinery v0.0.0-20240429213236-d5c9711b77ee
-	k8s.io/apiserver v0.0.0-20240430094439-347290105b75
-	k8s.io/client-go v0.0.0-20240429213655-049f23164924
+	k8s.io/api v0.0.0-20240504002703-92d2eac37b2a
+	k8s.io/apimachinery v0.0.0-20240503202409-c9c3e94f52f0
+	k8s.io/apiserver v0.0.0-20240503034606-dad1c2ae2085
+	k8s.io/client-go v0.0.0-20240504003057-35cab326ad02
 	k8s.io/code-generator v0.0.0-20240429214222-de98b55e3b8c
 	k8s.io/component-base v0.0.0-20240429214345-5e40e2a98ae4
 	k8s.io/klog/v2 v2.120.1
@@ -74,12 +77,9 @@ require (
 	go.etcd.io/etcd/client/v3 v3.5.13 // indirect
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.46.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.44.0 // indirect
-	go.opentelemetry.io/otel v1.20.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.20.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.20.0 // indirect
 	go.opentelemetry.io/otel/metric v1.20.0 // indirect
-	go.opentelemetry.io/otel/sdk v1.20.0 // indirect
-	go.opentelemetry.io/otel/trace v1.20.0 // indirect
 	go.opentelemetry.io/proto/otlp v1.0.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.26.0 // indirect
