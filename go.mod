@@ -16,12 +16,12 @@ require (
 	go.opentelemetry.io/otel/sdk v1.28.0
 	go.opentelemetry.io/otel/trace v1.28.0
 	golang.org/x/net v0.26.0
-	k8s.io/api v0.0.0-20240801003428-382a0912e579
-	k8s.io/apimachinery v0.0.0-20240720202316-95b78024e3fe
-	k8s.io/apiserver v0.0.0-20240721200436-e749b346fa52
-	k8s.io/client-go v0.0.0-20240801004130-5e3e8ea98fe9
-	k8s.io/code-generator v0.0.0-20240801005206-f74ea3c4283b
-	k8s.io/component-base v0.0.0-20240726211132-95f30f136fb2
+	k8s.io/api v0.31.0
+	k8s.io/apimachinery v0.31.0
+	k8s.io/apiserver v0.31.0
+	k8s.io/client-go v0.31.0
+	k8s.io/code-generator v0.31.0
+	k8s.io/component-base v0.31.0
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/kube-openapi v0.0.0-20240228011516-70dd3763d340
 	k8s.io/utils v0.0.0-20240711033017-18e509b52bc8
@@ -104,10 +104,8 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/gengo/v2 v2.0.0-20240228010128-51d4e06bde70 // indirect
-	k8s.io/kms v0.0.0-20240801005948-e16c35c51bb1 // indirect
+	k8s.io/kms v0.31.0 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.30.3 // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
 	sigs.k8s.io/yaml v1.4.0 // indirect
 )
-
-replace k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20240719190441-a8f449e276fe
