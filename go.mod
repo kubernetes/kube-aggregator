@@ -24,10 +24,10 @@ require (
 	golang.org/x/net v0.30.0
 	k8s.io/api v0.0.0-20241204221923-645453f0621f
 	k8s.io/apimachinery v0.0.0-20241204221643-a0ca8148bde6
-	k8s.io/apiserver v0.0.0-20241204224151-79e6f1fbcf75
+	k8s.io/apiserver v0.0.0-20241205025103-99abadede2fe
 	k8s.io/client-go v0.0.0-20241204222315-f118320d13f9
 	k8s.io/code-generator v0.0.0-20241204223223-b9bb950f9c4d
-	k8s.io/component-base v0.0.0-20241204223417-d3f16c547313
+	k8s.io/component-base v0.0.0-20241205024112-a640eabb28ec
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/kube-openapi v0.0.0-20241105132330-32ad38e42d3f
 	k8s.io/utils v0.0.0-20241104100929-3ea5e8cea738
