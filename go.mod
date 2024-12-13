@@ -20,14 +20,14 @@ require (
 	go.opentelemetry.io/otel/sdk v1.28.0
 	go.opentelemetry.io/otel/trace v1.28.0
 	golang.org/x/net v0.30.0
-	k8s.io/api v0.0.0-20241213174810-855f46b651ee
-	k8s.io/apimachinery v0.0.0-20241213174434-cfa44a126e90
-	k8s.io/apiserver v0.0.0-20241214021006-665a8df3fdc2
-	k8s.io/client-go v0.0.0-20241213175236-ab443a50c620
-	k8s.io/code-generator v0.0.0-20241213095954-c9a0498045ec
-	k8s.io/component-base v0.0.0-20241213100147-3ee150d133b9
+	k8s.io/api v0.0.0-20241214014715-eac45518d7fe
+	k8s.io/apimachinery v0.0.0-20241214014415-767f17a6afea
+	k8s.io/apiserver v0.0.0-20241214021008-f5b4a603791a
+	k8s.io/client-go v0.0.0-20241214015128-61ee2c5802c7
+	k8s.io/code-generator v0.0.0-20241214015924-a377fc713557
+	k8s.io/component-base v0.0.0-20241214020124-b7fbd0d55e44
 	k8s.io/klog/v2 v2.130.1
-	k8s.io/kube-openapi v0.0.0-20241105132330-32ad38e42d3f
+	k8s.io/kube-openapi v0.0.0-20241212222426-2c72e554b1e7
 	k8s.io/utils v0.0.0-20241104100929-3ea5e8cea738
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.2
 )
@@ -55,7 +55,7 @@ require (
 	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/google/btree v1.0.1 // indirect
 	github.com/google/cel-go v0.22.0 // indirect
-	github.com/google/gnostic-models v0.6.8 // indirect
+	github.com/google/gnostic-models v0.6.9 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/gorilla/websocket v1.5.0 // indirect
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0 // indirect
