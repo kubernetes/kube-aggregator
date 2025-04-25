@@ -17,9 +17,9 @@ require (
 	go.opentelemetry.io/otel/sdk v1.33.0
 	go.opentelemetry.io/otel/trace v1.33.0
 	golang.org/x/net v0.38.0
-	k8s.io/api v0.0.0-20250425021431-9aab596060e1
+	k8s.io/api v0.0.0-20250425132438-7421a41940e1
 	k8s.io/apimachinery v0.0.0-20250423231524-954960919938
-	k8s.io/apiserver v0.0.0-20250425113608-201e7749f225
+	k8s.io/apiserver v0.0.0-20250425193703-a50d13fe86a6
 	k8s.io/client-go v0.0.0-20250424231738-17ad09eb27d1
 	k8s.io/code-generator v0.0.0-20250423233509-2989947a8d78
 	k8s.io/component-base v0.0.0-20250424232716-364dc750ae6a
@@ -42,7 +42,7 @@ require (
 	github.com/coreos/go-systemd/v22 v22.5.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
-	github.com/fsnotify/fsnotify v1.7.0 // indirect
+	github.com/fsnotify/fsnotify v1.9.0 // indirect
 	github.com/fxamacker/cbor/v2 v2.7.0 // indirect
 	github.com/go-logr/logr v1.4.2 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
