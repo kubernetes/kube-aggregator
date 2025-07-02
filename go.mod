@@ -7,7 +7,7 @@ go 1.24.0
 godebug default=go1.24
 
 require (
-	github.com/emicklei/go-restful/v3 v3.11.0
+	github.com/emicklei/go-restful/v3 v3.12.2
 	github.com/gogo/protobuf v1.3.2
 	github.com/google/go-cmp v0.7.0
 	github.com/spf13/cobra v1.9.1
@@ -19,10 +19,10 @@ require (
 	golang.org/x/net v0.38.0
 	k8s.io/api v0.0.0-20250702170451-bfa25161ab14
 	k8s.io/apimachinery v0.0.0-20250702170156-7548d4da2f38
-	k8s.io/apiserver v0.0.0-20250702172959-179348d53806
-	k8s.io/client-go v0.0.0-20250702170847-0746d1b7322b
-	k8s.io/code-generator v0.0.0-20250702172003-7934b92a8696
-	k8s.io/component-base v0.0.0-20250702172159-a7fbca963794
+	k8s.io/apiserver v0.0.0-20250702212627-2898f40277a5
+	k8s.io/client-go v0.0.0-20250702210839-783cf83ee3e2
+	k8s.io/code-generator v0.0.0-20250702211636-cace93225cc0
+	k8s.io/component-base v0.0.0-20250702211828-4643692dd643
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/kube-openapi v0.0.0-20250628140032-d90c4fd18f59
 	k8s.io/utils v0.0.0-20250604170112-4c0f3b243397
