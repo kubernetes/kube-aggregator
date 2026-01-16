@@ -15,13 +15,13 @@ require (
 	go.opentelemetry.io/otel v1.38.0
 	go.opentelemetry.io/otel/sdk v1.38.0
 	go.opentelemetry.io/otel/trace v1.38.0
-	golang.org/x/net v0.48.0
-	k8s.io/api v0.0.0-20260116092921-af626db01ec3
-	k8s.io/apimachinery v0.0.0-20260116092335-ec68f9ee4510
-	k8s.io/apiserver v0.0.0-20260116100001-40e11b6c1b99
-	k8s.io/client-go v0.0.0-20260116013219-518241d0798f
-	k8s.io/code-generator v0.0.0-20260116094317-e2758a2874fa
-	k8s.io/component-base v0.0.0-20260116014526-03dfe633700f
+	golang.org/x/net v0.49.0
+	k8s.io/api v0.0.0-20260116132654-fc00e633274c
+	k8s.io/apimachinery v0.0.0-20260116132332-7daad7080a68
+	k8s.io/apiserver v0.0.0-20260116135330-bebca549f638
+	k8s.io/client-go v0.0.0-20260116133147-1a68af138328
+	k8s.io/code-generator v0.0.0-20260116134113-285401e6db04
+	k8s.io/component-base v0.0.0-20260116134335-0420ac6d90ee
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/kube-openapi v0.0.0-20250910181357-589584f1c912
 	k8s.io/utils v0.0.0-20251219084037-98d557b7f1e7
@@ -86,10 +86,10 @@ require (
 	go.opentelemetry.io/otel/metric v1.38.0 // indirect
 	go.opentelemetry.io/proto/otlp v1.5.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
-	go.uber.org/zap v1.27.0 // indirect
+	go.uber.org/zap v1.27.1 // indirect
 	go.yaml.in/yaml/v2 v2.4.3 // indirect
 	go.yaml.in/yaml/v3 v3.0.4 // indirect
-	golang.org/x/crypto v0.46.0 // indirect
+	golang.org/x/crypto v0.47.0 // indirect
 	golang.org/x/exp v0.0.0-20251219203646-944ab1f22d93 // indirect
 	golang.org/x/mod v0.32.0 // indirect
 	golang.org/x/oauth2 v0.34.0 // indirect
@@ -108,7 +108,7 @@ require (
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/gengo/v2 v2.0.0-20250922181213-ec3ebc5fd46b // indirect
-	k8s.io/kms v0.0.0-20260114014712-899b285c39d9 // indirect
+	k8s.io/kms v0.0.0-20260116134654-937e216b4285 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.34.0 // indirect
 	sigs.k8s.io/json v0.0.0-20250730193827-2d320260d730 // indirect
 	sigs.k8s.io/yaml v1.6.0 // indirect
