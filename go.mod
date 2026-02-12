@@ -16,15 +16,15 @@ require (
 	go.opentelemetry.io/otel/sdk v1.40.0
 	go.opentelemetry.io/otel/trace v1.40.0
 	golang.org/x/net v0.49.0
-	k8s.io/api v0.0.0-20260212004707-9572909952ab
-	k8s.io/apimachinery v0.0.0-20260210195147-ac0aa3101e5c
-	k8s.io/apiserver v0.0.0-20260212050609-9c00932dc1d5
-	k8s.io/client-go v0.0.0-20260212005204-9f57ca57bdbe
-	k8s.io/code-generator v0.0.0-20260211085639-b08e4a5cb980
-	k8s.io/component-base v0.0.0-20260210205601-7ce8a3ac6d79
+	k8s.io/api v0.0.0-20260212204713-44213e038791
+	k8s.io/apimachinery v0.0.0-20260212204335-aed281c35483
+	k8s.io/apiserver v0.0.0-20260212211443-8c1ee6150eca
+	k8s.io/client-go v0.0.0-20260212205228-7aaede787267
+	k8s.io/code-generator v0.0.0-20260212210152-c9a3346aa756
+	k8s.io/component-base v0.0.0-20260212210418-3080db3816b9
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/kube-openapi v0.0.0-20260127142750-a19766b6e2d4
-	k8s.io/utils v0.0.0-20260108192941-914a6e750570
+	k8s.io/utils v0.0.0-20260210185600-b8788abfbbc2
 	sigs.k8s.io/randfill v1.0.0
 	sigs.k8s.io/structured-merge-diff/v6 v6.3.2
 )
