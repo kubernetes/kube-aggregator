@@ -18,9 +18,9 @@ require (
 	golang.org/x/net v0.47.0
 	k8s.io/api v0.0.0-20251204222945-bbcbaa8f8665
 	k8s.io/apimachinery v0.0.0-20251204222403-72d71eac265e
-	k8s.io/apiserver v0.0.0-20251204213705-131539da7a2b
-	k8s.io/client-go v0.0.0-20251204213705-891f94c690cb
-	k8s.io/code-generator v0.0.0-20251204225556-840eca38f423
+	k8s.io/apiserver v0.0.0-20260115220735-4d42711e1166
+	k8s.io/client-go v0.0.0-20260304191620-f80003c24087
+	k8s.io/code-generator v0.0.0-20260304191620-397b82df2302
 	k8s.io/component-base v0.0.0-20251204225921-5e09e27225e6
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/kube-openapi v0.0.0-20250910181357-589584f1c912
