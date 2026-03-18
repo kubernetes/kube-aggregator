@@ -16,14 +16,14 @@ require (
 	go.opentelemetry.io/otel/sdk v1.40.0
 	go.opentelemetry.io/otel/trace v1.40.0
 	golang.org/x/net v0.49.0
-	k8s.io/api v0.0.0-20260318160010-913796feea53
-	k8s.io/apimachinery v0.0.0-20260317234939-27f467019a4e
-	k8s.io/apiserver v0.0.0-20260318163640-128a0e33b694
-	k8s.io/client-go v0.0.0-20260318160710-6c2138477663
-	k8s.io/code-generator v0.0.0-20260318001842-22fe297914e4
-	k8s.io/component-base v0.0.0-20260318162252-8a878838d00d
+	k8s.io/api v0.0.0-20260318195839-1ee4dbfb376b
+	k8s.io/apimachinery v0.0.0-20260318195418-729062d58854
+	k8s.io/apiserver v0.0.0-20260318203813-c2576b4b6b22
+	k8s.io/client-go v0.0.0-20260318200515-2fb6b9cac00d
+	k8s.io/code-generator v0.0.0-20260318201857-f4e4b3a54116
+	k8s.io/component-base v0.0.0-20260318202210-7dbe9af30685
 	k8s.io/klog/v2 v2.140.0
-	k8s.io/kube-openapi v0.0.0-20260304202019-5b3e3fdb0acf
+	k8s.io/kube-openapi v0.0.0-20260317180543-43fb72c5454a
 	k8s.io/streaming v0.0.0-20260317070603-951b6bf67777
 	k8s.io/utils v0.0.0-20260210185600-b8788abfbbc2
 	sigs.k8s.io/randfill v1.0.0
