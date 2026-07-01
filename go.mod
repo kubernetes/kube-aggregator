@@ -16,11 +16,11 @@ require (
 	go.opentelemetry.io/otel/sdk v1.44.0
 	go.opentelemetry.io/otel/trace v1.44.0
 	golang.org/x/net v0.55.1-0.20260602153038-42abb857022c
-	k8s.io/api v0.0.0-20260626213116-2b6c2012d75f
-	k8s.io/apimachinery v0.0.0-20260701082954-b16db0ad9a39
-	k8s.io/apiserver v0.0.0-20260630082504-67cb1ff27e8a
-	k8s.io/client-go v0.0.0-20260701091136-6059079a9125
-	k8s.io/code-generator v0.0.0-20260701094658-5eb32fe9faac
+	k8s.io/api v0.0.0-20260701084926-e425034170ac
+	k8s.io/apimachinery v0.0.0-20260701165018-c428e39362be
+	k8s.io/apiserver v0.0.0-20260701173708-c9f9cf747e61
+	k8s.io/client-go v0.0.0-20260701170242-0f26f3dd91bb
+	k8s.io/code-generator v0.0.0-20260701171806-534a79cd364a
 	k8s.io/component-base v0.0.0-20260626175201-04d6ee2658ec
 	k8s.io/klog/v2 v2.140.0
 	k8s.io/kube-openapi v0.0.0-20260618221249-bc653b64f974
