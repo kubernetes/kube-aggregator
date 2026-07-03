@@ -16,15 +16,15 @@ require (
 	go.opentelemetry.io/otel/sdk v1.44.0
 	go.opentelemetry.io/otel/trace v1.44.0
 	golang.org/x/net v0.57.0
-	k8s.io/api v0.0.0-20260721190412-6e4e0381102b
+	k8s.io/api v0.0.0-20260722092330-3c5ab05e97c3
 	k8s.io/apimachinery v0.0.0-20260721185639-d7ad413f224b
-	k8s.io/apiserver v0.0.0-20260721195931-40c7a6e07825
-	k8s.io/client-go v0.0.0-20260721191433-184dcc9d4e03
+	k8s.io/apiserver v0.0.0-20260722134716-8c6ff7dcfffc
+	k8s.io/client-go v0.0.0-20260722132844-a85b03483c04
 	k8s.io/code-generator v0.0.0-20260721193427-82c4ba9373f9
-	k8s.io/component-base v0.0.0-20260721193929-349fbe06359c
+	k8s.io/component-base v0.0.0-20260809042612-a6b06eef21a0
 	k8s.io/klog/v2 v2.140.0
 	k8s.io/kube-openapi v0.0.0-20260721132016-d427ff9ee9ad
-	k8s.io/streaming v0.0.0-20260710095143-d1a4397cb62c
+	k8s.io/streaming v0.0.0-20260809033646-cdd8da28b407
 	k8s.io/utils v0.0.0-20260626114624-be93311217bd
 	sigs.k8s.io/randfill v1.0.0
 	sigs.k8s.io/structured-merge-diff/v6 v6.4.2
@@ -61,7 +61,7 @@ require (
 	github.com/go-openapi/swag/typeutils v0.27.1 // indirect
 	github.com/go-openapi/swag/yamlutils v0.27.1 // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
-	github.com/google/cel-go v0.27.0 // indirect
+	github.com/google/cel-go v0.29.2 // indirect
 	github.com/google/gnostic-models v0.7.0 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/gorilla/websocket v1.5.4-0.20250319132907-e064f32e3674 // indirect
