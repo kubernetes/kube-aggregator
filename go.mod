@@ -18,7 +18,7 @@ require (
 	golang.org/x/net v0.55.1-0.20260602153038-42abb857022c
 	k8s.io/api v0.0.0-20260709100004-a0e64618a579
 	k8s.io/apimachinery v0.0.0-20260708230628-806395eee25d
-	k8s.io/apiserver v0.0.0-20260709103648-c9f1890b6a4c
+	k8s.io/apiserver v0.0.0-20260709103651-df19a0041915
 	k8s.io/client-go v0.0.0-20260708220807-22afa080ccda
 	k8s.io/code-generator v0.0.0-20260709101946-132294c7c516
 	k8s.io/component-base v0.0.0-20260708022243-9dc6cf0c75fe
@@ -82,9 +82,9 @@ require (
 	github.com/prometheus/common v0.67.5 // indirect
 	github.com/prometheus/procfs v0.19.2 // indirect
 	github.com/x448/float16 v0.8.4 // indirect
-	go.etcd.io/etcd/api/v3 v3.7.0-rc.0 // indirect
-	go.etcd.io/etcd/client/pkg/v3 v3.7.0-rc.0 // indirect
-	go.etcd.io/etcd/client/v3 v3.7.0-rc.0 // indirect
+	go.etcd.io/etcd/api/v3 v3.7.0 // indirect
+	go.etcd.io/etcd/client/pkg/v3 v3.7.0 // indirect
+	go.etcd.io/etcd/client/v3 v3.7.0 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.68.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.69.0 // indirect
