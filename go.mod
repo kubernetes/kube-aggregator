@@ -16,15 +16,15 @@ require (
 	go.opentelemetry.io/otel/sdk v1.44.0
 	go.opentelemetry.io/otel/trace v1.44.0
 	golang.org/x/net v0.57.0
-	k8s.io/api v0.0.0
-	k8s.io/apimachinery v0.0.0
-	k8s.io/apiserver v0.0.0
-	k8s.io/client-go v0.0.0
-	k8s.io/code-generator v0.0.0
-	k8s.io/component-base v0.0.0
+	k8s.io/api v0.0.0-20260722092330-3c5ab05e97c3
+	k8s.io/apimachinery v0.0.0-20260721185639-d7ad413f224b
+	k8s.io/apiserver v0.0.0-20260722134716-8c6ff7dcfffc
+	k8s.io/client-go v0.0.0-20260722132844-a85b03483c04
+	k8s.io/code-generator v0.0.0-20260721193427-82c4ba9373f9
+	k8s.io/component-base v0.0.0-20260721193929-349fbe06359c
 	k8s.io/klog/v2 v2.140.0
 	k8s.io/kube-openapi v0.0.0-20260721132016-d427ff9ee9ad
-	k8s.io/streaming v0.0.0
+	k8s.io/streaming v0.0.0-20260710095143-d1a4397cb62c
 	k8s.io/utils v0.0.0-20260626114624-be93311217bd
 	sigs.k8s.io/randfill v1.0.0
 	sigs.k8s.io/structured-merge-diff/v6 v6.4.2
@@ -115,19 +115,8 @@ require (
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/gengo/v2 v2.0.0-20260408192533-25e2208e0dc3 // indirect
-	k8s.io/kms v0.0.0 // indirect
+	k8s.io/kms v0.0.0-20260720194111-6b1b4ad7c08c // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.36.0 // indirect
 	sigs.k8s.io/json v0.0.0-20250730193827-2d320260d730 // indirect
 	sigs.k8s.io/yaml v1.6.0 // indirect
-)
-
-replace (
-	k8s.io/api => ../api
-	k8s.io/apimachinery => ../apimachinery
-	k8s.io/apiserver => ../apiserver
-	k8s.io/client-go => ../client-go
-	k8s.io/code-generator => ../code-generator
-	k8s.io/component-base => ../component-base
-	k8s.io/kms => ../kms
-	k8s.io/streaming => ../streaming
 )
