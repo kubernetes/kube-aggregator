@@ -16,12 +16,12 @@ require (
 	go.opentelemetry.io/otel/sdk v1.44.0
 	go.opentelemetry.io/otel/trace v1.44.0
 	golang.org/x/net v0.59.0
-	k8s.io/api v0.0.0-20260925175811-97b4aac46fbf
-	k8s.io/apimachinery v0.0.0-20260925175343-be1093d69c39
-	k8s.io/apiserver v0.0.0-20260925183219-524306ef2170
-	k8s.io/client-go v0.0.0-20260925180432-0b3e140561dc
-	k8s.io/code-generator v0.0.0-20260925181651-6ffbe8780d67
-	k8s.io/component-base v0.0.0-20260925181949-33d458fff1ed
+	k8s.io/api v0.0.0-20260925175813-1ae1ab50d0cd
+	k8s.io/apimachinery v0.0.0-20260925175345-fdc546200a6d
+	k8s.io/apiserver v0.0.0-20260925183224-d365d26d0f4d
+	k8s.io/client-go v0.0.0-20260925180436-4849f5561335
+	k8s.io/code-generator v0.0.0-20260925181652-286f2fba890f
+	k8s.io/component-base v0.0.0-20260925181953-c3f88dae1f3b
 	k8s.io/klog/v2 v2.140.0
 	k8s.io/kube-openapi v0.0.0-20260908163437-c4db2bdfbfe6
 	k8s.io/streaming v0.0.0-20260925174948-82cc75b1f3b1
@@ -43,7 +43,7 @@ require (
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
 	github.com/fsnotify/fsnotify v1.9.0 // indirect
-	github.com/fxamacker/cbor/v2 v2.9.1 // indirect
+	github.com/fxamacker/cbor/v2 v2.9.4 // indirect
 	github.com/go-logr/logr v1.4.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-openapi/jsonpointer v1.0.0 // indirect
