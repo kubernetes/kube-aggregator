@@ -7,7 +7,7 @@ go 1.27.0
 godebug default=go1.27
 
 require (
-	github.com/emicklei/go-restful/v3 v3.13.0
+	github.com/emicklei/go-restful/v3 v3.14.0
 	github.com/google/go-cmp v0.7.0
 	github.com/spf13/cobra v1.10.2
 	github.com/spf13/pflag v1.0.10
@@ -16,11 +16,11 @@ require (
 	go.opentelemetry.io/otel/sdk v1.47.0
 	go.opentelemetry.io/otel/trace v1.47.0
 	golang.org/x/net v0.59.0
-	k8s.io/api v0.0.0-20261015182305-d198ecd9a0c8
-	k8s.io/apimachinery v0.0.0-20261016021814-a46486cf77e5
-	k8s.io/apiserver v0.0.0-20261015185750-2db602f227e4
-	k8s.io/client-go v0.0.0-20261016022913-fb6e5c619bf1
-	k8s.io/code-generator v0.0.0-20261016024145-f20de9728d1b
+	k8s.io/api v0.0.0-20261016062245-9543bf0b0991
+	k8s.io/apimachinery v0.0.0-20261016061815-bb18965360a1
+	k8s.io/apiserver v0.0.0-20261016203244-194d53b6d65d
+	k8s.io/client-go v0.0.0-20261016144836-c2b21233505d
+	k8s.io/code-generator v0.0.0-20261016063231-6363a4a65030
 	k8s.io/component-base v0.0.0-20261014064326-eb2e9d857afe
 	k8s.io/klog/v2 v2.140.0
 	k8s.io/kube-openapi v0.0.0-20261014044854-ca3452a79603
